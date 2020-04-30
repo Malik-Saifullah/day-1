@@ -1,0 +1,64 @@
+@import "../fontawsome/css/all.css";
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 10em;
+    background-color: aqua;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.nav-item{
+    padding: 20px 0px 0px 0px;
+}
+
+.nav-text{
+    font-size: 1.5em;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-item:last-child{
+    margin-top: auto;
+}
+
+.nav-link i{
+    font-size: 35px;
+}
+
+main{
+    margin-left: 13em;
+}
